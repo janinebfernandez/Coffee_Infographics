@@ -1,8 +1,7 @@
-<!--PORTFOLIO PAGE - Black on White - HTML-->
-<!--PORTFOLIO PAGE - PROJECTS PAGE - Coffee Infographics - HTML-->
+<!--PORTFOLIO - DYNAMIC - JANINE FERNANDEZ - COFFEE INFOGRAPHICS PAGE-->
 <!DOCTYPE html>
 <head>
-    <title>Janine B.Fernandez Portfolio</title>
+    <title>Janine B.Fernandez : Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
@@ -16,18 +15,9 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <!--Popup-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="../../Portfolio/js/toggle.js"></script>
-    <script src="../../Portfolio/js/nav_dropdown.js"></script>
-    <script src="../../Portfolio/js/project-popup.js"></script>
-    <script src="../../Portfolio/js/gallery_slideshow.js"></script>
         
     <!--Stylesheet-->
-    <link href="../../Portfolio/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="../../Portfolio/css/portfolio_bow.css" type="text/css" rel="stylesheet">
-    <link href="../../Portfolio/css/portfolio_bow_tip.css" type="text/css" rel="stylesheet">
-    <link href="../../Portfolio/css/portfolio_bow_til.css" type="text/css" rel="stylesheet">
-    <link href="../../Portfolio/css/portfolio_bow_ml.css" type="text/css" rel="stylesheet">
-    <link href="../../Portfolio/css/portfolio_bow_mp.css" type="text/css" rel="stylesheet">
+    <link href="../../Portfolio/css/normalize.css" type="text/css" rel="stylesheet">
 
     <!--Icon for Mobile Nav-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,9 +30,14 @@
 }
 
 #c3_wrapper h3{
-  font-size:12px;
-  font-weight:800;
-  color: rgb(158, 91, 93);
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    background-color: rgba(140,91,93,.8);
+    width: 15%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .c3-content{
@@ -52,6 +47,10 @@
 
 .c3-container {
     margin-top: 1em;
+}
+
+.page_title {
+    text-align: center;
 }
 
 .c3-button{
@@ -184,13 +183,7 @@ opacity:1;
 .transform-large_slide{
   opacity:1;
 }
-/*  .transform-active-left {
-  margin-left:6%;
-}
 
-.transform-active-right {
-  margin-right:10%;
-}*/
 }/*TABLE + MOBILE ENDS*/
 
 /*TABLET PORTRAIT*/
@@ -353,27 +346,11 @@ opacity:1;
 <!--<div class = "my_background"></div>-->
 <div class = "wrapper_body">
 <div id="bodywrapper">
-    <!--GRID CONTAINER-->
-    <div class = "gridwrapper">
-        <div class="box header_welcome socialmedia"><a href="../../Portfolio/index.html" target = ""><img src="../../Portfolio/images/icons/home-icon.png" alt="j.ix Home"></a>
-                                                    <a href="../../Portfolio/pages/projects.html" target = ""><img src="../../Portfolio/images/icons/go-back-arrow.png" alt="go back"></a></div>
-        <div class="box header_pagename">
-            <a href="../../index.html"><p>Janine B. Fernandez | <!--<img src="../images/j.ix-logo.png" alt="Janine B. Fernandez Logo"> | -->Porfolio</p></a>
-            <!--Social media accounts-->
-            <div class = "socialmedia">
-                <a href="https://janinebfernandez.github.io/Portfolio/index.html#" target = ""><img style="width:3em" src="../../Portfolio/images/logo-2019-mini.png" alt="Janine B. Fernandez Logo"></a>
-                <a href="https://www.linkedin.com/in/janinebfernandez" target = "_blank"><img src="../../Portfolio/images/icons/linkedin-icon.png" alt="LinkedIn"></a>
-                <a href="https://www.youtube.com/channel/UCWjmkdK2poOYL6IYrYUskwQ/featured?disable_polymer=1" target = "_blank"><img src="../../Portfolio/images/icons/youtube-icon.png" alt="Flickr"></a>
-                <a href="https://www.instagram.com/j.ix.redefine9" target = "_blank"><img src="../../Portfolio/images/icons/instagram-icon.png" alt="Instagram"></a>
-                <a href="https://www.flickr.com/photos/janinebfernandez/" target = "_blank"><img src="../../Portfolio/images/icons/flickr-icon.png" alt="Flickr"></a>
-            </div>
-        </div>
-        </div><!--gridwrapper ends-->
 <!--CONTENT BEGINS-->
 <h2 class="page_title">Coffee Basic</h2>
 <div class="project_container">
 <div id="c3_wrapper">
-    <h3>What's your craving?</h3>
+    <h3>What's your coffee of the day?</h3>
 
 <!--SLIDESHOW CONTENT-->
 <div class="c3-container">
@@ -562,24 +539,6 @@ opacity:1;
 </div><!--bodywrapper ends-->
 </div><!--wrapper_body ENDS-->
 
-<!--NAV DROPDOWN-->
-<div id="nav_container">
-<div class="box nav dropdown float_center">
-        <button onclick="myFunction()"><i class="fa fa-bars dropbtn"></i></button>
-        <ul id="myDropdown" class="dropdown-content child">
-            <li id = "video"><!--<a href="url">Video</a>--></li>
-            <li id = "photo"><a href="../../Portfolio/pages/photography.html">Photography</a></li>
-            <li id = "wd"><a href="../../Portfolio/pages/webdesign.html">Web Design</a></li>
-            <li id = "graphics"><a href="../../Portfolio/pages/graphics.html">Graphics</a></li>
-            <li id = "projects"><a href="../../Portfolio/pages/projects.html">Projects</a></li>
-            <li id = "logo"><a href="../../Portfolio/pages/logo.html">Logo</a></li>
-            <li id = "type"><a href="../../Portfolio/pages/type.html">Type</a></li>
-            <li id = "animate"><!--<a href="url">Animate</a>--></li>
-            <li id = "sound"><!--<a href="url">Sound</a>--></li>
-        </ul><!--dropdown ends-->
-        <div class="clear"></div>
-        </div><!--nav ends-->
-    </div><!--nav container ends-->
 
 </body>
 
